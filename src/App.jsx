@@ -1,9 +1,7 @@
 import { useState } from 'react';
 import reactLogo from './assets/react.svg';
 import './App.css';
-import { createStore } from 'redux';
 import { Provider, useSelector, useDispatch } from 'react-redux';
-import { configureStore, createSlice } from '@reduxjs/toolkit';
 import store from './store';
 import { up } from './counterSlice';
 
